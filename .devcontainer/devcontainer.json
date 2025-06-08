@@ -1,0 +1,11 @@
+{
+  "name": "MemoryCardz Codespace",
+  "image": "mcr.microsoft.com/devcontainers/node:18",
+  "postCreateCommand": "cd backend && npm install",
+  "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint"]
+    }
+  }
+}
